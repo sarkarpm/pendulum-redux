@@ -43,8 +43,9 @@ and Algolia, a database for internal searching of JSON.
 # Currently Supported News Sources
 "cnn.com", "breitbart.com", "nationalreview.com", "wsj.com", "newyorker.com", "washingtonpost.com", "salon.com", "theguardian.com", "foxnews.com", "motherjones.com", "townhall.com", "huffingtonpost.com", "bloomberg.com", "thenation.com", "fivethirtyeight.com", "nytimes.com", "theblaze.com", "reason.com", "thehill.com"
 
-# Data Flow Diagrams
-
+# Sample Usage
 ![Sample Image](./img/sample.png?raw=true "Sample Usage")
+
+# Data Flow Diagrams
 ![Pendulum Server](./img/server.png?raw=true "Pendulum Server")
 ![Pendulum App](./img/app.png?raw=true "Pendulum App")

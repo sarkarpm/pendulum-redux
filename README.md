@@ -8,9 +8,9 @@ sources.
 APIs used include Webhose.io, which collects JSON data related to new articles,
 and Algolia, a database for internal searching of JSON.
 
-##Setup
+## Setup
 
-###For Users:
+### For Users:
 1. Click on the top menu to the right of the URL bar
 2. Click "More Tools"
 3. Click "Extensions"
@@ -18,7 +18,7 @@ and Algolia, a database for internal searching of JSON.
 5. Select the folder "pendulum_redux/pendulum_redux_app/build"
 6. The extension should be installed! Test it out on popular news sites.
 
-###For Developers:
+### For Developers:
 #### Setting up the server, webhose, and Algolia database
 1. Register for algolia.com and webhose.io accounts
 2. Your env.sh will need the following:

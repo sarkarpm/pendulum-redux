@@ -1,0 +1,34 @@
+{
+  "name": "rcr-example",
+  "version": "0.0.1",
+  "private": true,
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fix": "eslint . --ignore-pattern node_modules/ build/ --fix"
+  },
+  "author": "Tyler Shaddix",
+  "dependencies": {
+    "algoliasearch": "^3.24.1",
+    "react": "^15.5.0",
+    "react-chrome-redux": "0.0.7",
+    "react-dom": "^15.5.0",
+    "react-redux": "^4.0.0",
+    "redux": "^3.0.4",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^4.3.0",
+    "eslint-plugin-react": "^7.1.0",
+    "gulp": "^3.9.0",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-util": "^3.0.7",
+    "rimraf": "^2.5.0",
+    "webpack": "^2.6.0"
+  }
+}

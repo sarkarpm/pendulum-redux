@@ -22,7 +22,7 @@ and Algolia, a database for internal searching of JSON.
 #### Setting up the server, webhose, and Algolia database
 1. Register for algolia.com and webhose.io accounts
 2. Your env.sh will need the following:
-  * WEBHOSE_PUBLIC_KEY
+    * WEBHOSE_PUBLIC_KEY
 	* ALGOLIA_PUBLIC_KEY
 	* ALGOLIA_SECRET_KEY
 	* ALGOLIA_APP_ID
@@ -45,5 +45,6 @@ and Algolia, a database for internal searching of JSON.
 
 # Data Flow Diagrams
 
+![Sample Image](./img/sample.png?raw=true "Sample Usage")
 ![Pendulum Server](./img/server.png?raw=true "Pendulum Server")
 ![Pendulum App](./img/app.png?raw=true "Pendulum App")

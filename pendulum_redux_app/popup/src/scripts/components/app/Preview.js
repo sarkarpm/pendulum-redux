@@ -15,7 +15,7 @@ const Preview = ( { info } ) => {
 					(<img src="http://cdn8.openculture.com/wp-content/uploads/2012/09/BurroughsShotgunArt.jpeg" />) : (<img src={info.thread.main_image} />)}
 			</div>
 			<div className="textBox">
-				<div><a href={info.url} target="/blank"><h2 className="fucker">{info.title}</h2></a></div>
+				<div><a href={info.url} target="/blank"><h2 className="info">{info.title}</h2></a></div>
 				<div><h4 style={{display: 'flex', justifyContent: 'center'}}><a href={'http://'+info.thread.site} target="/blank">{info.thread.site}</a></h4></div>
 				<div>{info.text.substring(0, 160)}...</div>
 			</div>

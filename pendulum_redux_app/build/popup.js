@@ -15666,7 +15666,7 @@ var Preview = function Preview(_ref) {
 					{ href: info.url, target: '/blank' },
 					_react2.default.createElement(
 						'h2',
-						{ className: 'fucker' },
+						{ className: 'info' },
 						info.title
 					)
 				)
